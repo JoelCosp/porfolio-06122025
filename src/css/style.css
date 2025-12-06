@@ -332,3 +332,11 @@ body {
     width: 80%;
   }
 }
+
+.bar {
+  background-color: #222; /* modo claro */
+}
+
+[data-theme="dark"] .bar {
+  background-color: #fff !important;
+}
